@@ -1,0 +1,7 @@
+void push(int value) {
+ if(top == MAX-1) printf("Stack Overflow\n");
+ else {
+ stack[++top] = value;
+ printf("%d pushed\n", value);
+ }
+}
